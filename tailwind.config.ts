@@ -51,20 +51,32 @@ const config = {
       "7xl": ["4.375rem", "5.625rem"],
     },
     extend: {
+      height: {
+        "1/12": "calc(100% / 12)",
+        "2/12": "calc(100% / 12 * 2)",
+        "3/12": "calc(100% / 12 * 3)",
+        "4/12": "calc(100% / 12 * 4)",
+        "5/12": "calc(100% / 12 * 5)",
+        "6/12": "calc(100% / 12 * 6)",
+        "7/12": "calc(100% / 12 * 7)",
+        "8/12": "calc(100% / 12 * 8)",
+        "9/12": "calc(100% / 12 * 9)",
+        "10/12": "calc(100% / 12 * 10)",
+        "11/12": "calc(100% / 12 * 11)",
+      },
       colors: {
         goldie: {
           primary: {
-            DEFAULT: "#0B2D61",
+            DEFAULT: "#E4AF3D",
           },
           secondary: {
-            DEFAULT: "#EE3139",
+            DEFAULT: "#E4AF3D",
           },
-          dark: "#01183A",
-          darkPlus: "#021C44",
-          gray: "#444444",
-          grayLight: "#D9D9D9",
-          ceil: "#8ba1c4",
-          jpIndigo: "#283a56",
+          dander: "#EB4340",
+          grayLight: "#FAFAFA",
+          gray: "#969FB3",
+          dark: "#444444",
+          black: "#010715",
         },
       },
       boxShadow: {

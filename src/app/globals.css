@@ -6,3 +6,31 @@
 .anime {
   @apply transition-all duration-300;
 }
+
+.righsidebarcontant {
+  @apply w-full h-[calc(100%-84px)] bg-red-300 overflow-y-auto;
+}
+
+
+h1,
+.h1 {
+  @apply text-4xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-7xl;
+}
+h2 {
+  @apply text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl;
+}
+h3 {
+  @apply text-2xl lg:text-3xl;
+}
+h4 {
+  @apply text-xl lg:text-26;
+}
+h5 {
+  @apply text-base md:text-lg lg:text-22;
+}
+h6 {
+  @apply text-sm md:text-lg lg:text-xl;
+}
+p {
+  @apply text-sm lg:text-base 2xl:text-lg md:leading-6 lg:leading-6 2xl:leading-8;
+}
